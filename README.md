@@ -1,16 +1,30 @@
-# news_apps
+# News App
 
-A new Flutter project.
+Aplikasi berita sederhana yang menampilkan berita dari beberapa sumber terpercaya.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+- Menampilkan daftar berita terbaru
+- Menampilkan detail berita
+- Menyimpan berita favorit
+- Menampilkan daftar berita favorit
+- Menghapus berita dari daftar favorit
 
-A few resources to get you started if this is your first Flutter project:
+## Instalasi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Pastikan Anda sudah memiliki Flutter SDK terinstal. Untuk menginstal aplikasi ini di perangkat Anda, ikuti langkah-langkah di bawah ini:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone repositori ini:
+
+```bash
+git clone https://github.com/username/news-app.git
+cd news-app
+
+# Install dependensi:
+flutter pub get
+
+# Jalankan aplikasi:
+flutter run
+
+# Penggunaan
+Aplikasi ini memungkinkan pengguna untuk menelusuri dan membaca berita dari beberapa sumber berita populer. Pengguna juga dapat menyimpan berita favorit mereka untuk dibaca nanti.
